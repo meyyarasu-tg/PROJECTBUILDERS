@@ -416,10 +416,17 @@ html, body {
 }
 
 
-/* Contact Section */
+/* Contact Section Styling - Clean and Unified */
 .contact-section {
+    background-color: #007bff;
     padding: 20px;
-    background-color: #282828;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 100%; /* Full width for full display */
+    box-sizing: border-box;
 }
 
 .contact-section p {
@@ -428,32 +435,16 @@ html, body {
 }
 
 .contact-section a {
-    color: #1e90ff;
-}
-
-.contact-section a:hover {
-    text-decoration: underline;
-}
-/* Contact section styling */
-.contact-section {
-    background-color: #007bff;
-    padding: 5px 0;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 1% 34%;
-}
-
-.contact-section a {
     color: #ffffff;
     text-decoration: none;
-    transition: color 0.3s ease; /* Added transition for smooth color change */
+    transition: color 0.3s ease;
 }
 
 .contact-section a:hover {
     color: #f8f9fa;
+    text-decoration: underline;
 }
+
 /* Mobile view adjustments */
 @media (max-width: 768px) {
     .contact-section {
