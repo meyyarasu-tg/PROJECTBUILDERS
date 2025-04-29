@@ -416,6 +416,7 @@ html, body {
 }
 
 
+
 /* Contact Section Styling - Responsive Minimal View */
 .contact-section {
     background-color: #007bff;
@@ -425,15 +426,9 @@ html, body {
     font-weight: normal;
     color: #ffffff;
     margin: 0 auto;
-    width: 100%;
+    width: fit-content;
     max-width: 100%;
     box-sizing: border-box;
-}
-
-@media (min-width: 768px) {
-    .contact-section {
-        width: fit-content;
-    }
 }
 
 .contact-section p {
