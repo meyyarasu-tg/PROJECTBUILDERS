@@ -416,27 +416,29 @@ html, body {
 }
 
 
-/* Contact Section Styling - Clean and Unified */
+/* Contact Section Styling - Minimal View */
 .contact-section {
     background-color: #007bff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     color: #ffffff;
     margin: 0 auto;
-    width: 100%; /* Full width for full display */
+    width: 100%;
     box-sizing: border-box;
 }
 
 .contact-section p {
     margin: 0;
     color: #ffffff;
+    font-size: 12px;
 }
 
 .contact-section a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 12px;
     transition: color 0.3s ease;
 }
 
