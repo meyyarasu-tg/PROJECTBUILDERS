@@ -416,7 +416,7 @@ html, body {
 }
 
 
-/* Contact Section Styling - Minimal View */
+/* Contact Section Styling - Responsive Minimal View */
 .contact-section {
     background-color: #007bff;
     padding: 10px;
@@ -425,7 +425,8 @@ html, body {
     font-weight: normal;
     color: #ffffff;
     margin: 0 auto;
-    width: 100%;
+    width: fit-content;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
@@ -446,6 +447,7 @@ html, body {
     color: #f8f9fa;
     text-decoration: underline;
 }
+
 
 /* Mobile view adjustments */
 @media (max-width: 768px) {
