@@ -50,7 +50,7 @@ document.querySelectorAll('.order-btn').forEach(function(button) {
         const projectName = getProjectName(this);
         const whatsappNumber = "917603846096"; // WhatsApp number without '+' or spaces
         const message = encodeURIComponent(`Hello, I would like to order the project: ${projectName}`);
-        const whatsappURL = `https://wa.me/${917603846096}?text=${message}`;
+        const whatsappURL = `https://wa.me/${919360438998}?text=${message}`;
         window.open(whatsappURL, '_blank');
     });
 });
