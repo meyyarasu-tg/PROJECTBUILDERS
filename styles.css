@@ -359,20 +359,34 @@ body {
     color: #ffffff;
 }
 
-/* Footer Styling */
+/* Updated Footer Styling for Compact View */
 .footer {
-    padding: 20px;
+    padding: 10px 15px; /* Reduced padding */
     background-color: #1f1f1f;
     text-align: center;
-    margin-top: auto; /* Push footer to the bottom */
+    margin-top: auto;
     width: 100%;
 }
 
-/* Ensure there is no extra margin or padding below the footer */
-html, body {
-    margin: 0;
-    padding: 0;
+.footer-text {
+    background-color: #181818;
+    color: #cccccc;
+    font-size: 10px; /* Reduced font size */
+    padding: 5px 0; /* Reduced padding */
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px; /* Reduced margin */
 }
+
+/* Optional: Footer spacing on mobile */
+@media (max-width: 480px) {
+    .footer-text {
+        font-size: 9px;
+        padding: 4px 0;
+    }
+}
+
 
 /* Social Links Styling */
 .social-links {
