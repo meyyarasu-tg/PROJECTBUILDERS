@@ -48,7 +48,7 @@ document.querySelectorAll('.payment-btn').forEach(function(button) {
 document.querySelectorAll('.order-btn').forEach(function(button) {
     button.addEventListener('click', function() {
         const projectName = getProjectName(this);
-        const whatsappNumber = "917603846096"; // WhatsApp number without '+' or spaces
+        const whatsappNumber = "919360438998"; // WhatsApp number without '+' or spaces
         const message = encodeURIComponent(`Hello, I would like to order the project: ${projectName}`);
         const whatsappURL = `https://wa.me/${919360438998}?text=${message}`;
         window.open(whatsappURL, '_blank');
