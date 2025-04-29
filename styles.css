@@ -425,9 +425,15 @@ html, body {
     font-weight: normal;
     color: #ffffff;
     margin: 0 auto;
-    width: fit-content;
+    width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .contact-section {
+        width: fit-content;
+    }
 }
 
 .contact-section p {
